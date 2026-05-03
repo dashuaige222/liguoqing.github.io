@@ -17,7 +17,7 @@ dateElement.innerText = dateString;
 // 2. 给按钮添加点击事件
 const btn = document.getElementById('alert-btn');
 btn.addEventListener('click', function() {
-    alert('🎉 恭喜你！！！获得了李国清的联系方式😍\n15610630910');
+    alert('恭喜你！！！获得了李国清的联系方式\n15610630910');
 });
 
-console.log('我已知晓，确认李国清为大帅哥');
+console.log('给按钮添加点击事件成功');

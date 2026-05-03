@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的第一个静态网站</title>
+    <!-- 引入 CSS 文件 -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>👋 欢迎来到我的测试网站</h1>
+            <p>这是一个纯静态的 HTML 页面</p>
+        </header>
+
+        <main>
+            <div class="card">
+                <h2>📅 今天的日期</h2>
+                <p id="date-display">加载中...</p>
+            </div>
+            
+            <div class="card">
+                <h2>🎨 关于样式</h2>
+                <p>你可以看到卡片有阴影，按钮是蓝色的，这都是 CSS 的功劳。</p>
+            </div>
+<img src="images/test.jpg" alt="测试图片" style="max-width:100%; border-radius:8px;">
+        </main>
+
+        <footer>
+            <button id="alert-btn">点击我测试 JS 功能</button>
+            <p class="copyright">© 2026 测试网站</p>
+        </footer>
+    </div>
+
+    <!-- 引入 JS 文件 -->
+    <script src="script.js"></script>
+</body>
+</html>
